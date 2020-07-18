@@ -37,7 +37,7 @@ First, create a tenant at [Auth0](https://auth0.com/). Then, create an applicati
 
 [More info here](https://github.com/nuxt/example-auth0) about the application configuration.
 
-## Define local dns
+## Define local dns (facultative)
 
 Add the local dns `realworld.nuxtjs.com`.
 
@@ -61,6 +61,8 @@ $ yarn dev
 # build for production and launch server
 $ yarn build && yarn start
 ```
+
+You can access the project locally at : [localhost:3333](http://localhost:3333/) or [realworld.nuxtjs.com:3333](http://realworld.nuxtjs.com:3333/) if you defined the local dns.
 
 ## Used dependencies
 
